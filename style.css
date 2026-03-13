@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+margin: 0;
+    background-image: url(./assets/img-funto.jpeg)
+    ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+  
+    }
+img{
+    width: 140px;
+    display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+ .container{
+    text-align: center;
+    /* adiciona espaço para "descer" o conteúdo */
+    margin-top: 80px;
+    /* borda semi-transparente. ajuste os valores rgba para mudar a cor */
+    border: 3px solid rgba(255, 255, 255, 0.6);
+    padding: 18px;
+    border-radius: 12px;
+}
+
+    ul{
+        display: flex;
+        flex-direction: column; 
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        list-style: none; /* remove o ponto (bullet) do item de lista */
+        padding-left: 10px; /* remove espaçamento padrão do <ul> */
+        margin: 0; 
+        margin-top: 24px;
+    }
+
+    li{
+    border: 2px solid #4d3afb ;
+    border-radius: 8px;
+    padding: 10px;
+    width: 360px;
+    text-align: center;
+    background-color: #8376fb50;
+}
+
+li:hover{
+    background-color: #2063eb4f;}
+
+    
+
+        
+    /* Remover cor padrão de links visitados (roxo) */
+    a,
+    a:visited {
+        color: white;
+        text-decoration: none;
+    }
