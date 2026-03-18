@@ -6,36 +6,45 @@
         box-sizing: border-box;
     }
 
-     body{
-        background-color: #000;
-     }
+     .menu {
 
+    
+    padding: 15px;
+
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    list-style: none;
+
+}
+  .menu :hover{
+
+    color: rgb(116, 38, 116);
+  }
      
 
     :root
     {
-        --text-color:rgb(255, 253, 253);
-        --bg-url: url(./assets/funto-noturno.jpeg);
-        --stroke-color: rgba(95, 145, 252, 0.999);
-        --surface-color: rgba(108, 136, 144, 0.164);
-         --surface-color-hover: rgba(83, 56, 163, 0.473);
-         --highlight-color:  rgba(189, 191, 235, 0.115);
+        --text-color:white;
+        --bg-url: url(./assets/bg-mobile.jpg);
+        --stroke-color: rgba(255, 255, 255, 0.5);
+        --surface-color: rgba(255, 255, 255, 0.1);
+         --surface-color-hover: rgb(255, 255, 255, 0.05);
+         --highlight-color:  rgba(255, 255, 255, 0.2);
          --switch-bg-url: url(./assets/moon-stars.svg);
-         --surface-colo-hover-boder:rgba(170, 29, 251, 0.721);
          }
 
      .light{
         --text-color: black;
-        --bg-url: url(./assets/img-funto-claro.jpeg);
+        --bg-url: url(./assets/bg-mobile-light.jpg);
         --stroke-color: rgba(0, 0, 0, 0.5);
         --surface-color: rgba(0,0,0,0.1);
-        --surface-color-hover: rgba(90, 28, 100, 0.255);
-        --highlight-color: rgba(102, 24, 86, 0.133);
+        --surface-color-hover: rgba(0,0,0,0.2);
+        --highlight-color: rgba(0,0,0,0.1);
         --switch-bg-url: url(./assets/sun.svg);
-        --surface-colo-hover-boder:rgba(62, 9, 98, 0.721);
     }
     body{background: var(--bg-url) no-repeat top center/cover;
-    min-height: 100vh;
+    height: 100vh;
     }
 
    
@@ -137,8 +146,7 @@
     flex-direction: column; 
     gap: 16px;
      
-     width: 100%;
-     max-width: 360px;  
+     width: 360px;  
      display: flex;
      padding: 4px 0;
     
@@ -165,7 +173,7 @@
 
         ul li a:hover {
             background: var(--surface-color-hover);
-                border: 1.5px solid var(--surface-colo-hover-boder)
+                border: 1.5px solid var(--text-color)
 
             
             
@@ -208,11 +216,11 @@
 
           @media( min-width: 700px) {
             :root {
-                --bg-url: url(./assets/funto-noturno.jpeg);
+                --bg-url: url(./assets/bg-desktop.jpg);
             } 
 
             .light {
-                --bg-url: url(.//assets/funto-claro.jpeg);
+                --bg-url: url(./assets/bg-desktop-light.jpg);
             }
           }
 

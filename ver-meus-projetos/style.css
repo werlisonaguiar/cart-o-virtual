@@ -1,0 +1,73 @@
+/* Reset e fonte */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background: linear-gradient(to right, #121212, #0f1f4a, rgb(25, 17, 70), rgb(2, 0, 11));
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #f8fafc;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #cbd5e1;
+  margin-bottom: 40px;
+}
+
+
+.projetos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+
+.card {
+  background: linear-gradient(rgba(44, 135, 169, 0.668), rgba(1, 25, 34, 0.619));
+  padding: 25px 20px;
+  width: 250px;
+  border-radius: 15px;
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #dbeafe;
+}
+
+/* Efeito hover */
+.card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 20px 30px rgba(20, 8, 8, 0.915);
+  background: linear-gradient(rgba(80, 100, 157, 0.708),rgb(4, 35, 86));
+  transition: 1s;
+}
+
+/* Responsividade */
+@media (max-width: 800px) {
+  .projetos {
+    flex-direction: column;
+    align-items: center;
+  }
+}
