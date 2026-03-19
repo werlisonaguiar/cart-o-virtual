@@ -14,4 +14,4 @@ function toggleMode() {
         img.setAttribute('src', '../assets/avata.png.png')
     }
 
-}
+} 
