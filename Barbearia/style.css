@@ -12,6 +12,14 @@ body {
 
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+
 .conteudo{
 
 width:100%;
