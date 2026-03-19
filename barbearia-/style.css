@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    height: 100vh;
+
+    background: radial-gradient(circle at top center, rgba(212, 175, 55, 0.2), #0b0b0b 50%)#111010;
+
+    color: white;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+.conteudo{
+
+width:100%;
+text-align:center;
+margin-top:120px;
+
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+
+.menu {
+
+    background: rgb(20, 16, 16);
+
+    padding: 15px;
+
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+
+}
+
+.menu a {
+
+    text-decoration: none;
+
+    color: #cca62add;
+
+    font-weight: bold;
+
+    font-size: 10px; 
+
+}
+
+  .menu a:hover{
+    color: #c8b30e;
+  }
+
+img {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+h1 {
+
+    font-family: "Noto Serif", serif;
+
+
+
+    color: #e5c047;
+
+    font-weight: 200;
+
+   
+
+
+}
+
+
+.decoracao {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 15px 0;
+
+}
+
+.linha {
+
+    width: 140px;
+    height: 2px;
+
+    background: linear-gradient(to right,
+            transparent 0%,
+            #d4af37 50%,
+            transparent 100%);
+
+}
+
+
+.losango {
+
+    width: 12px;
+    height: 12px;
+
+    background: #94750e;
+
+    margin: 0 12px;
+
+    transform: rotate(45deg);
+
+}
+
+
+
+p {
+
+    font-size: 18px;
+
+    color: #e5e5e5;
+
+    font-style: italic;
+
+    margin-bottom: 30px;
+
+}
+
+
+
+
+
+
+
+
+.links a {
+
+    display: block;
+    width: 260px;
+
+    padding: 15px;
+    margin: 12px auto;
+
+    text-align: center;
+    text-decoration: none;
+
+    color: rgb(24, 20, 20);
+    font-weight: bold;
+
+    border-radius: 10px;
+
+   
+    background: linear-gradient(to bottom,
+            #685104,
+            #eec026,
+            #0b0a00);
+
+    
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+
+}
+
+
+.links a:hover {
+
+    background: linear-gradient(#48380d,
+            #fcc232,
+            #7a5b0b);
+
+    transform: scale(1.05);
+
+    transition: 0.3s;
+
+}
