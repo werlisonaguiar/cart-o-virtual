@@ -11,7 +11,7 @@ function toggleMode() {
 
     else {
 
-        img.setAttribute('src', '../assets/avata.png')
+        img.setAttribute('src', './assets/avata.png')
     }
 
 } 
